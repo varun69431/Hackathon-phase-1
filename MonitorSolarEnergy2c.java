@@ -18,7 +18,8 @@ class SolarEnergy {
         double total = calculateTotalEnergy(morning, evening);
         
         System.out.println("Total Energy Generated: " + total + " kWh");
-        
+
+        sc.close();
         
     }
 }
