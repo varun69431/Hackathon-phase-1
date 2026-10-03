@@ -10,7 +10,7 @@ public class MonitorSolarEnergy2b {
      else{
         System.out.println("Low Energy Generation");
      }
-   
+   sc.close();
        
 }
 }
